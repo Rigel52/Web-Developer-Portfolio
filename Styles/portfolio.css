@@ -87,7 +87,9 @@ nav a{
  }
  
  /*main section styles*/
-
+main{
+    max-width: 1140px;
+}
 
 
 
@@ -95,9 +97,17 @@ nav a{
 
  /*about section styles*/
  .about {
+    font-family: 'Lato', sans-serif;
     padding: 100px;
     border-radius: 30px;
     background: #FFF8F3;
     margin: 50px 30px;
-
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .about-info{
+    text-align: center;
  }
